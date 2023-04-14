@@ -14,7 +14,7 @@ Vous pouvez voir une démonstration de ce profile-card en cliquant ici.
 2. Ouvrez le fichier index.html dans votre navigateur pour voir le profile-card.
 4. Ouvrez le fichier style.css pour modifier les styles CSS.
 Auteur
-Ce projet a été créé par [votre nom ici]. Si vous avez des questions ou des commentaires, n'hésitez pas à me contacter à [votre adresse e-mail ici].
+Ce projet a été créé par Etienne Kibongani lombo. Si vous avez des questions ou des commentaires, n'hésitez pas à me contacter à graddykibongani@gmail.com.
 
 ## Licence
 Ce projet est sous licence MIT. Veuillez consulter le fichier LICENCE pour plus d'informations.
