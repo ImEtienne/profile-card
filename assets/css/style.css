@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Poppins:wght@100;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(360deg, purple, rgba(40, 4, 223, 0.349));
+  min-height: 100vh;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 350px;
+  max-height: 700px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 20px white;
+  transition: all 0.7s ease;
+}
+
+.container:hover {
+  cursor: pointer;
+  box-shadow: 0 0 50px white;
+}
+.container .card-img {
+  background-color: rgba(40, 4, 223, 0.349);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 10px 0 0;
+}
+.container .card-img img {
+  position: relative;
+  top: 60px;
+  width: 150px;
+  border-radius: 50%;
+  border: 6px solid rgba(40, 4, 223, 0.349);
+}
+
+.container .card-social-links {
+  text-align: center;
+}
+
+.container .card-social-links a {
+  color: #333;
+}
+
+.card-social-links .fa-brands {
+  margin-right: 10px;
+  font-size: 1.3em;
+  transition: all 0.5s ease;
+}
+
+.card-social-links .fa-brands:hover {
+  color: rgba(40, 4, 223, 0.349);
+  cursor: pointer;
+}
+
+.header h1 {
+  margin-top: 60px;
+  text-align: center;
+  color: rgba(40, 4, 223, 0.349);
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.header h3 {
+  /*color: rgb(109, 109, 109);*/
+  color: #666;
+  text-align: center;
+}
+
+.header p {
+  font-size: 12px;
+  padding: 20px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.container .card-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-footer .btn {
+  background-color: white;
+  border: 1px solid rgba(40, 4, 223, 0.349);
+  color: rgba(40, 4, 223, 0.349);
+  padding: 10px 22px;
+  margin: 20px 5px;
+  border-radius: 5px;
+  transition: all 0.7s ease;
+}
+
+.card-footer .btn:hover {
+  background-color: rgba(40, 4, 223, 0.349);
+  color: white;
+  padding: 10px 22px;
+  margin: 20px 5px;
+  border-radius: 5px;
+  transition: all 0.7s ease;
+  border: 1px solid white;
+}
+
+.card-footer .btn.active {
+  background-color: rgba(40, 4, 223, 0.349);
+  color: white;
+  border: 1px solid white;
+}
+
+@media only screen and (max-width: 660px) {
+  .container .card-footer {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-footer .btn {
+    background-color: white;
+    border: 1px solid rgba(40, 4, 223, 0.349);
+    color: rgba(40, 4, 223, 0.349);
+    padding: 10px 22px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    transition: all 0.7s ease;
+  }
+
+  .card-footer .btn:hover {
+    background-color: rgba(40, 4, 223, 0.349);
+    color: white;
+    padding: 10px 22px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    transition: all 0.7s ease;
+    border: 1px solid white;
+  }
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 400px;
+    max-height: 1200px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px white;
+  }
+  body {
+    min-height: 115vh;
+  }
+}
