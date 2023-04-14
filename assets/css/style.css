@@ -155,7 +155,7 @@ a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    max-width: 400px;
+    min-width: 280px;
     max-height: 1200px;
     display: flex;
     flex-direction: column;
@@ -164,6 +164,6 @@ a {
     box-shadow: 0 0 20px white;
   }
   body {
-    min-height: 115vh;
+    max-height: 100%;
   }
 }
