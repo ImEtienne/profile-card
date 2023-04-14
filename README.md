@@ -13,7 +13,8 @@ Vous pouvez voir une démonstration de ce profile-card en cliquant ici.
 1. Clonez le référentiel sur votre ordinateur.
 2. Ouvrez le fichier index.html dans votre navigateur pour voir le profile-card.
 4. Ouvrez le fichier style.css pour modifier les styles CSS.
-Auteur
+
+## Auteur
 Ce projet a été créé par Etienne Kibongani lombo. Si vous avez des questions ou des commentaires, n'hésitez pas à me contacter à graddykibongani@gmail.com.
 
 ## Licence
